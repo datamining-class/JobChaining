@@ -7,7 +7,7 @@ This project will give an example of a simple Hadoop project and will include in
 
 First clone the repo on Great Lakes:
 ```
-git clone https://gitlab.eecs.umich.edu/oignat/jobchaining.git
+git clone https://github.com/datamining-class/JobChaining.git
 ```
 
 Source code can be found in the directory *src/main/java/com/*
