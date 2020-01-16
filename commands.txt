@@ -1,0 +1,16 @@
+chmod +x gradlew
+
+./gradlew clean jar
+
+Hadoop (Flux):
+
+	hadoop jar build/libs/WordCount-1.0-SNAPSHOT.jar --input_path /var/eecs498f18/ --output_path new_output_path
+
+	hadoop fs -ls new_output_path/word_counts
+
+	hadoop fs -tail new_output_path/word_counts/part-r-00000
+
+	hadoop fs -rm -r -f <HDFS_OUTPUT_DIRECTORY> 
+
+Java (local):
+	java -jar build/libs/WordCount-1.0-SNAPSHOT.jar --input_path build/resources/main/words  --output_path random_output2
