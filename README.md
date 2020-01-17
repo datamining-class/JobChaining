@@ -14,7 +14,7 @@ Source code can be found in the directory *src/main/java/com/*
 
 Next build the project: 
 ```
-cd WordCount
+cd JobChaining
 ./gradlew clean jar
 ```
 NOTE: if you are running on mac you may have to run: 
